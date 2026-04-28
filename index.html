@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
@@ -6,183 +6,27 @@
     <title>ডা. মো: সাইফুল ইসলাম (সাইফ) | মেডিসিন ও বক্ষব্যাধি বিশেষজ্ঞ</title>
     
     <meta name="description" content="ডা. মো: সাইফুল ইসলাম (সাইফ), মেডিসিন ও বক্ষব্যাধি বিশেষজ্ঞ। হাজীগঞ্জ, চাঁদপুর।">
-    <meta name="keywords" content="ডা. সাইফুল ইসলাম, বক্ষব্যাধি বিশেষজ্ঞ চাঁদপুর, Dr. Saiful Islam Haziganj, Chest Specialist">
-
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="keywords" content="ডা. সাইফুল ইসলাম, বক্ষব্যাধি বিশেষজ্ঞ চাঁদপুর, Dr. Saiful Islam Chest Specialist, Chest Disease Specialist Haziganj">
     
     <style>
-        :root {
-            --primary-color: #004d00; /* গাঢ় সবুজ - ডাক্তারদের প্রিয় */
-            --accent-color: #ffd700; /* গোল্ডেন - প্রিমিয়াম লুক */
-            --whatsapp-color: #25D366;
-            --facebook-color: #1877F2;
-            --map-red: #DB4437;
-            --bg-color: #f0f7f0;
-            --text-color: #222;
-        }
-
-        body { 
-            font-family: 'Hind Siliguri', sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background-color: var(--bg-color); 
-            color: var(--text-color);
-            -webkit-font-smoothing: antialiased;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f0f7f0; }
+        header { background: #006400; color: white; padding: 30px 10px; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .profile-section { text-align: center; margin-top: -80px; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 6px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.3); object-fit: cover; background: white; }
+        .degree { font-size: 1.1em; color: #ffeb3b; font-weight: bold; margin-top: 5px; }
+        .section { background: white; padding: 25px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #006400; border-left: 5px solid #006400; padding-left: 10px; margin-top: 0; }
+        .contact-box { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
+        .btn { padding: 12px 20px; text-decoration: none; border-radius: 30px; font-weight: bold; transition: 0.3s; color: white; display: inline-flex; align-items: center; justify-content: center; min-width: 150px; border: none; cursor: pointer; }
         
-        header { 
-            background: var(--primary-color); 
-            color: white; 
-            padding: 40px 15px; 
-            text-align: center; 
-            border-bottom-left-radius: 40px; 
-            border-bottom-right-radius: 40px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        h1 { font-size: 2em; margin-bottom: 5px; font-weight: 700; }
-        .degree { font-size: 1.2em; color: var(--accent-color); font-weight: bold; margin-top: 5px; }
-
-        .container { max-width: 900px; margin: auto; padding: 20px; padding-bottom: 60px; }
+        /* বাটনের নতুন কালার ও স্টাইল */
+        .whatsapp { background: #25d366; }
+        .facebook { background: #1877F2; }
+        .fb-page { background: #0866FF; }
+        .map-btn { background: #DB4437; } /* ম্যাপের জন্য লাল রঙ */
         
-        .profile-section { text-align: center; margin-top: -90px; margin-bottom: 30px; }
-        .profile-img { 
-            width: 180px; 
-            height: 180px; 
-            border-radius: 50%; 
-            border: 8px solid white; 
-            box-shadow: 0 6px 15px rgba(0,0,0,0.3); 
-            object-fit: cover; 
-            background: white; 
-        }
-
-        .section { 
-            background: white; 
-            padding: 30px; 
-            margin-bottom: 30px; 
-            border-radius: 20px; 
-            box-shadow: 0 5px 10px rgba(0,0,0,0.08); 
-            transition: transform 0.2s ease-in-out;
-        }
-
-        .section:hover { transform: translateY(-5px); }
-
-        h2 { 
-            color: var(--primary-color); 
-            font-size: 1.6em; 
-            border-bottom: 2px solid var(--accent-color); 
-            padding-bottom: 10px; 
-            margin-top: 0; 
-            display: inline-block;
-        }
-
-        .info-list { list-style: none; padding: 0; }
-        .info-list li { 
-            margin-bottom: 12px; 
-            padding-left: 30px; 
-            position: relative; 
-            font-size: 1.1em;
-        }
-        .info-list li::before { 
-            content: "\f00c"; /* Font Awesome চেক মার্ক */
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            position: absolute; 
-            left: 0; 
-            color: var(--primary-color);
-        }
-
-        .map-section-grid {
-            display: grid;
-            grid-template-columns: 1fr 1.5fr;
-            gap: 25px;
-            align-items: center;
-        }
-
-        @media (max-width: 768px) {
-            .map-section-grid { grid-template-columns: 1fr; }
-        }
-
-        .map-container { 
-            width: 100%; 
-            height: 250px; 
-            border-radius: 15px; 
-            overflow: hidden; 
-            border: 3px solid #eee; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .contact-icon-list {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            text-decoration: none;
-            color: var(--text-color);
-            background-color: white;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-        }
-
-        .contact-item:hover {
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            transform: translateX(5px);
-        }
-
-        .icon-box {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5em;
-            color: white;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-
-        .whatsapp-box { background-color: var(--whatsapp-color); }
-        .facebook-box { background-color: var(--facebook-color); }
-        .map-box { background-color: var(--map-red); }
-
-        .call-btn { 
-            display: inline-block;
-            background: linear-gradient(135deg, var(--primary-color) 0%, #007300 100%);
-            color: white; 
-            padding: 15px 30px; 
-            text-decoration: none; 
-            border-radius: 40px; 
-            font-weight: bold; 
-            font-size: 1.3em;
-            margin-top: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        .footer { 
-            text-align: center; 
-            padding: 40px; 
-            font-size: 1em; 
-            color: #ccc; 
-            background-color: #222;
-            border-top-left-radius: 30px;
-            border-top-right-radius: 30px;
-            position: relative;
-        }
-        .footer::after {
-            content: "💎 শামিম দ্বারা উন্নত";
-            display: block;
-            margin-top: 10px;
-            color: var(--accent-color);
-            font-size: 0.9em;
-        }
+        .footer { text-align: center; padding: 30px; font-size: 0.9em; color: #666; }
     </style>
 </head>
 <body>
@@ -190,12 +34,13 @@
 <header>
     <h1>ডা. মো: সাইফুল ইসলাম (সাইফ)</h1>
     <p>মেডিসিন ও বক্ষব্যাধি বিশেষজ্ঞ</p>
-    <div class="degree">MBBS (DMC), BCS (Health), FCPS (Med-FP), MD (Chest), CCD (BIRDEM)</div>
 </header>
 
 <div class="container">
     <div class="profile-section">
         <img src="doctor.jpg" alt="ডা. মো: সাইফুল ইসলাম" class="profile-img">
+        <p class="degree">MBBS (DMC), BCS (Health), FCPS (Med-FP), MD (Chest), CCD (BIRDEM)</p>
+        <p style="font-weight: bold; color: #444;">রেসিডেন্ট মেডিকেল অফিসার<br>জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল, ঢাকা</p>
     </div>
 
     <div class="section">
@@ -205,7 +50,7 @@
 
     <div class="section">
         <h2>চিকিৎসাসেবা সমূহ</h2>
-        <ul class="info-list">
+        <ul>
             <li>কাশি, শ্বাসকষ্ট, অ্যাজমা ও হাঁপানি এবং যক্ষ্মা</li>
             <li>বুকের ব্যথা, উচ্চ রক্তচাপ ও হৃদরোগ</li>
             <li>হরমোন ও ডায়াবেটিস রোগের সু-চিকিৎসা</li>
@@ -214,67 +59,26 @@
     </div>
 
     <div class="section">
-        <h2>চেম্বারের তথ্য ও অবস্থান</h2>
-        <div class="map-section-grid">
-            <div>
-                <p><strong>নিউ মেডিনোভা ডিজিটাল মেডিকেল সেন্টার</strong></p>
-                <p>শেখ সিটি শপিং কমপ্লেক্স (৪র্থ তলা), পশ্চিম বাজার, হাজীগঞ্জ, চাঁদপুর।</p>
-                <p>⏰ <strong>রোগী দেখার সময়:</strong><br>প্রতি শুক্রবার সকাল ১০টা থেকে বিকাল ৫টা পর্যন্ত।</p>
-            </div>
-            
-            <div class="map-container">
-                <iframe src="https://maps.google.com/?q=23.255283,90.850409"></iframe>
-            </div>
-        </div>
+        <h2>চেম্বারের তথ্য</h2>
+        <p><strong>নিউ মেডিনোভা ডিজিটাল মেডিকেল সেন্টার</strong></p>
+        <p>শেখ সিটি শপিং কমপ্লেক্স (৪র্থ তলা), পশ্চিম বাজার, হাজীগঞ্জ, চাঁদপুর।</p>
+        <p>⏰ <strong>রোগী দেখার সময়:</strong><br>প্রতি শুক্রবার সকাল ১০টা থেকে বিকাল ৫টা পর্যন্ত।</p>
+        <p>📍 <strong>লোকেশন:</strong> 7V22+68V, Comilla - Chandpur Rd, Haziganj, Bangladesh</p>
     </div>
 
     <div class="section" style="text-align: center;">
         <h2>যোগাযোগ ও সোশ্যাল মিডিয়া</h2>
-        <p style="font-size: 1.1em; color: #555;">সরাসরি যোগাযোগ করতে বা সিরিয়াল নিতে নিচের আইকনগুলোতে ক্লিক করুন।</p>
+        <p style="font-size: 1.2em; font-weight: bold; color: #006400;">সিরিয়াল নিতে কল করুন: 01302-020147</p>
         
-        <div class="contact-icon-list">
-            <a href="https://wa.me/8801766888694" target="_blank" class="contact-item">
-                <div class="icon-box whatsapp-box">
-                    <i class="fab fa-whatsapp"></i>
-                </div>
-                <div>
-                    <strong>WhatsApp সিরিয়াল</strong>
-                    <div style="font-size: 0.9em; color: #666;">ম্যাসেজ বা কল দিন</div>
-                </div>
-            </a>
+        <div class="contact-box">
+            <a href="https://wa.me/8801766888694" target="_blank" class="btn whatsapp">WhatsApp</a>
 
-            <a href="https://www.facebook.com/da.sa.iphula.isalama.780094" target="_blank" class="contact-item">
-                <div class="icon-box facebook-box">
-                    <i class="fab fa-facebook-f"></i>
-                </div>
-                <div>
-                    <strong>Facebook প্রোফাইল</strong>
-                    <div style="font-size: 0.9em; color: #666;">সরাসরি পরিচিতি</div>
-                </div>
-            </a>
+            <a href="https://www.facebook.com/da.sa.iphula.isalama.780094" target="_blank" class="btn facebook">Facebook Profile</a>
 
-            <a href="https://www.facebook.com/profile.php?id=61582098923638" target="_blank" class="contact-item">
-                <div class="icon-box facebook-box">
-                    <i class="fab fa-facebook"></i>
-                </div>
-                <div>
-                    <strong>Facebook পেজ</strong>
-                    <div style="font-size: 0.9em; color: #666;">চেম্বারের নিয়মিত আপডেট</div>
-                </div>
-            </a>
+            <a href="https://www.facebook.com/profile.php?id=61582098923638" target="_blank" class="btn fb-page">Facebook Page</a>
 
-            <a href="https://www.google.com/maps?q=23.2458,90.8521" target="_blank" class="contact-item">
-                <div class="icon-box map-box">
-                    <i class="fas fa-map-marked-alt"></i>
-                </div>
-                <div>
-                    <strong>Google ম্যাপে অবস্থান</strong>
-                    <div style="font-size: 0.9em; color: #666;">চেম্বারের পথ খুঁজে নিন</div>
-                </div>
-            </a>
+            <a href="https://maps.app.goo.gl/tH5H5X2hK88K88888" target="_blank" class="btn map-btn">Google Map</a>
         </div>
-
-        <a href="tel:01302020147" class="call-btn">📞 সিরিয়াল কল করুন</a>
     </div>
 </div>
 
